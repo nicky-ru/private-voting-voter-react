@@ -1,0 +1,32 @@
+header {
+    background-image:url('../img/voting_bkg.webp');
+}
+
+#secret-phrase-section {
+    background-image:url('../img/downloads-bg.jpg');
+}
+
+#secret-key-result {
+    margin-top: 1rem;
+}
+
+#key-output {
+    width: 100%;
+}
+
+#verification-section {
+    background-image:url('../img/downloads-bg.jpg');
+}
+
+#voting-section {
+    background-image:url('../img/downloads-bg.jpg');
+}
+
+#results {
+    background-image:url('../img/downloads-bg.jpg');
+}
+
+.masthead {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
