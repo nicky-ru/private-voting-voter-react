@@ -4,7 +4,7 @@ import privateVoting from "./privateVoting";
 import './assets/bootstrap/css/bootstrap.min.css';
 import './assets/css/main.css';
 import ElectionComponent from "./components/ElectionComponent";
-import AboutComponent from "./components/AboutComponent";
+import About from "./components/About";
 import SecretPhraseComponent from "./components/SecretPhraseComponent";
 import VerificationComponent from "./components/VerificationComponent";
 import VotingComponent from "./components/VotingComponent";
@@ -111,7 +111,7 @@ class App extends Component {
                 electionName={this.state.elections[0]}
             />
 
-            <AboutComponent
+            <About
                 electionDescription={this.state.elections[1]}
                 workflowStatusDescription={this.state.workflowStatusDescription}
             />
