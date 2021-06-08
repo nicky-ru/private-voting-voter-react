@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import privateVoting from "../privateVoting";
-import verifier from "../verifier";
 
 class VerificationComponent extends Component {
     state = {
@@ -43,9 +42,6 @@ class VerificationComponent extends Component {
         document.getElementById("verification-warning").hidden = false;
         document.getElementById("verification-primary").hidden = true;
         document.getElementById("verification-danger").hidden = true;
-
-        // let res = await verifier.methods.verifyTx(a, b, c, input).call();
-        // console.log(res);
 
         try {
             await privateVoting.methods.verifyAccount(a, b, c, input)

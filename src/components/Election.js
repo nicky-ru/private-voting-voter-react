@@ -1,5 +1,3 @@
-// import React from 'react';
-
 function Election(props) {
     return(
         <header className="masthead">

@@ -1,5 +1,3 @@
-// import React from 'react';
-
 function About(props) {
     return(
         <section className="text-center content-section" id="about">
