@@ -3,7 +3,7 @@ import web3 from "./web3";
 import privateVoting from "./privateVoting";
 import './assets/bootstrap/css/bootstrap.min.css';
 import './assets/css/main.css';
-import ElectionComponent from "./components/ElectionComponent";
+import Election from "./components/Election";
 import About from "./components/About";
 import SecretPhraseComponent from "./components/SecretPhraseComponent";
 import VerificationComponent from "./components/VerificationComponent";
@@ -107,7 +107,7 @@ class App extends Component {
     return(
         <div>
 
-            <ElectionComponent
+            <Election
                 electionName={this.state.elections[0]}
             />
 
