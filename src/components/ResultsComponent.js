@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import privateVoting from "../privateVoting";
-import '../assets/bootstrap/css/bootstrap.min.css';
-import '../assets/css/main.css';
 
 class ResultsComponent extends Component {
     state = {

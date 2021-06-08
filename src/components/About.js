@@ -1,6 +1,4 @@
 import React from 'react';
-import '../assets/bootstrap/css/bootstrap.min.css';
-import '../assets/css/main.css';
 
 function About(props) {
     return(
